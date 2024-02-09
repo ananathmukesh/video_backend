@@ -15,7 +15,7 @@ const io = socketIO(server, {
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("server is running");
+  res.send("server is running on port https://backend-folder-jd6w.onrender.com");
 });
 
 io.on("connection", (socket) => {
